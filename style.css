@@ -335,13 +335,13 @@ section.experience {
     padding: 13px;
     border-radius: 5px;
     cursor: pointer;
-    transition: ease-in-out 1s;
+    transition: ease-in-out .3s;
     box-shadow: 1px 1px 3px var(--sombra);
 }
 
 .experiencia__botao--demo:hover {
     transform: scale(1.5) rotate(360deg);
-    transition: ease-in-out 1s;
+    transition: ease-in-out .3s;
 }
 
 /* Sessão Formcontato */
