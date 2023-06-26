@@ -718,6 +718,7 @@ section.footer {
     .menu__list__item__contato {
         display: block;
         margin-top: 12px;
+        margin-right: 35px;
     }
 
     /* Title */
@@ -781,7 +782,7 @@ section.footer {
     section.skills {
         flex-wrap: wrap;
         margin-left: 16px;
-        margin-right: 16px;
+        margin-right: 36px;
     }
 
     .skills__title {
@@ -808,6 +809,8 @@ section.footer {
     section.hobbies {
         margin-left: 16px;
         margin-right: 16px;
+        margin-right: 36px;
+
     }
 
     .hobbies__title {
@@ -839,6 +842,8 @@ section.footer {
     .academic__courses {
         flex-wrap: wrap;
         justify-content: center;
+        padding-right: 60px;
+
     }
 
     .academic__courses__box__up {
@@ -895,5 +900,8 @@ section.footer {
 
     .formcontato__input {
         width: auto;
+    }
+    .top {
+        right: 40px;
     }
 }
