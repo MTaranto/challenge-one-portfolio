@@ -139,13 +139,13 @@ section.about {
     margin-top: 10px;
     border-radius: 5px;
     cursor: pointer;
-    transition: ease-in-out 1s;
+    transition: ease-in-out .3s;
     box-shadow: 1px 1px 3px var(--sombra);
 }
 
 .about__botao:hover {
     transform: scale(1.5) rotate(360deg);
-    transition: ease-in-out 1s;
+    transition: ease-in-out .3s;
 }
 
 .about__footer img {
@@ -319,13 +319,13 @@ section.experience {
     margin-right: 15px;
     border-radius: 5px;
     cursor: pointer;
-    transition: ease-in-out 1s;
+    transition: ease-in-out .3s;
     box-shadow: 1px 1px 3px var(--sombra);
 }
 
 .experiencia__botao--repo:hover {
     transform: scale(1.5) rotate(360deg);
-    transition: ease-in-out 1s;
+    transition: ease-in-out .3s;
 }
 
 .experiencia__botao--demo {
@@ -777,6 +777,22 @@ section.footer {
         width: 328px;
     }
 
+    .about__botao {
+        border: none;
+        color: var(--branco);
+        background-color: var(--azul-claro);
+        padding: 13px;
+        margin-top: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: none;
+        box-shadow: 1px 1px 3px var(--sombra);
+    }
+    .about__botao:hover {
+        transform: none;
+    }
+
+
     /* Skills */
 
     section.skills {
@@ -884,6 +900,13 @@ section.footer {
         margin-left: 0;
     }
 
+    .experiencia__botao--repo:hover {
+        transform: none;
+    }
+    .experiencia__botao--demo:hover {
+        transform: none;
+    }
+
     /* Formcontato */
 
     section.formcontato {
@@ -902,6 +925,9 @@ section.footer {
         width: auto;
     }
     .top {
-        right: 40px;
+        right: 60px;
+    }
+    .formcontato__botao:hover {
+        transform: none;
     }
 }
